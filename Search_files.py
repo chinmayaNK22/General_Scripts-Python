@@ -56,7 +56,7 @@ def search_files(inpath, search_file_name, outpath):
         ml.append(cl)
     outfile1 = (outpath + '/' + 'Directories_with_search_file' + '_' + dt + '_' + current_time + '.txt')
     with open(outfile1, 'w') as outf1:
-        outf1.write('Species\tFile\tNo._Unique_Peptides\n')
+        outf1.write('Species\tFile\tNo._of_Unique_Peptides\n')
         outf1.writelines('\t'.join(j) + '\n' for j in ml)
 ##        write1.write(cl + '\n')
 ##        
