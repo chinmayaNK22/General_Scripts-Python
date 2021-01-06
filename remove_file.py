@@ -1,3 +1,4 @@
+## files with common search terms can be removed in multiple directories
 import os
 import sys
 
